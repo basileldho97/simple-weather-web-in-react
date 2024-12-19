@@ -1,0 +1,86 @@
+/* General Reset */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: url('https://images.unsplash.com/photo-1600334129128-14eefa9ff063?fit=crop&w=1500&q=80') no-repeat center center fixed;
+  background-size: cover;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.app-container {
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 12px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  padding: 20px;
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+}
+
+.title {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.search-form {
+  margin-bottom: 20px;
+}
+
+.search-input {
+  padding: 12px;
+  width: 65%;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+}
+
+.search-button {
+  padding: 12px;
+  background: linear-gradient(to right, #4facfe, #00f2fe);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: transform 0.2s, background 0.3s;
+}
+
+.search-button:hover {
+  background: linear-gradient(to right, #00aaff, #007cff);
+  transform: scale(1.05);
+}
+
+.error-message {
+  color: red;
+  font-weight: bold;
+  margin: 10px 0;
+}
+
+.weather-info {
+  background: #f7f7f7;
+  padding: 15px;
+  border-radius: 12px;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.weather-info h2 {
+  margin: 0;
+  color: #4facfe;
+}
+
+.weather-info p {
+  margin: 5px 0;
+  font-size: 1rem;
+  color: #555;
+}
+
+.weather-icon {
+  width: 100px;
+  height: 100px;
+}
